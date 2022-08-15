@@ -489,5 +489,6 @@ input[type="submit"]:hover{color: #fff;background-color: var(--accentColor);}
     .item-cate label{top: -20px;}   
     .item-cate img{width: 52px;height: 52px;} 
     .contact-project span{padding:70px 25px;font-size: 25px;}
-    .pare-code{width: 100px;height: 100px;}   
+    .pare-code{width: 100px;height: 100px;}
+    .type-design{display:none;}
 }
