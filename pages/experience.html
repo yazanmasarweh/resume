@@ -60,7 +60,7 @@
   var dirPage = $(".form-check-input").val() == "true" ? "animate__zoomInRight" : "animate__zoomInLeft" ;
   skills.map((ele) =>{
     $(".container-skills").append(`
-      <div class="mix p-2 ${ele.level} " >
+      <div class="mix p-1 ${ele.level} " >
         <div class="item-cate position-relative overflow-hidden animate__animated ${dirPage}" style="--animate-duration: ${Math.random()}s;">
           <span class="position-relative text-center d-flex flex-column justify-content-around fw-bold">
             <label class="position-relative text-capitalize">${ele.name}</label>
